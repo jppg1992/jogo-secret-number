@@ -1,0 +1,56 @@
+ 
+ a{
+  text-decoration: none;
+ }
+ .btns{
+  padding: 16px 120px;
+ }
+ 
+ .divBtn{
+  padding: 16px;
+ }
+ 
+.divInternaIputs {
+  padding: 1%;
+}
+.inputTextArea {
+  flex: 1;
+  background: #ffffff url(/rsrc.php/v3/yU/r/O7nelmd9XSI.png) repeat-x;
+  border: 1px solid #dddfe2;
+  color: #1d2129;
+  font-family: Helvetica, Arial, sans-serif;
+
+  font-size: 20px;
+  width: 300px;
+  line-height: 16px;
+  padding: 25px 16px;
+  border-radius: 6px;
+  vertical-align: middle;
+  resize: none;
+  height: 150px;
+}
+.inputs {
+  flex: 1;
+  background: #ffffff url(/rsrc.php/v3/yU/r/O7nelmd9XSI.png) repeat-x;
+  border: 1px solid #dddfe2;
+  color: #1d2129;
+  font-family: Helvetica, Arial, sans-serif;
+
+  font-size: 20px;
+  width: 300px;
+  height: 25px;
+  line-height: 16px;
+  padding: 25px 16px;
+  border-radius: 6px;
+  vertical-align: middle;
+}
+
+ 
+ 
+.conteudo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  
+}

@@ -1,0 +1,26 @@
+
+.avatar{
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+}
+
+.divCreditos{
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  gap: 5%;
+}
+
+.divCitacao{
+            display: flex;
+            padding-left: 16px; /* Espaço para a imagem à esquerda */
+            font-style: italic;
+            font-size: 0.65rem;
+            margin-bottom: 20px;
+}
+p{
+  margin-top: 2%;
+  font-size: 1rem;
+}

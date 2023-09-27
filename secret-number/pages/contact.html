@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/contact.css" />
+
+    <title>Secret Number</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <a class="btnMenu" href="/index.html"> MENU</a>
+      </div>
+    </header>
+    <main class="container">
+      <div class="conteudo">
+        <form>
+          <div class="divInternaIputs">
+            <input
+              id="nome"
+              name="nome"
+              type="text"
+              class="inputs"
+              placeholder="Nome"
+              autofocus="1"
+              aria-label="Nome"
+              required
+            />
+          </div>
+          <div class="divInternaIputs">
+            <input
+              id="assunto"
+              name="assunto"
+              type="text"
+              class="inputs"
+              placeholder="Assunto"
+              autofocus="1"
+              aria-label="Assunto"
+              required
+            />
+          </div>
+
+          <div class="divInternaIputs">
+            <textarea
+              id="mensagem"
+              name="mensagem"
+              type="text"
+              class="inputTextArea"
+              placeholder="Mensagem ...."
+              required
+              aria-multiline="true"
+            ></textarea>
+          </div>
+
+          <div class="divBtn">
+            <a id="enviarEmailLink" class="btns" href="#">Enviar</a>
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <script src="../js/contato.js"></script>
+      <a href="https://jppg1992.github.io/dev-links/" target="_blank"> © 2023 João Paulo Godinho</a>
+      <span class="versao">v1.0.0</span>
+    </footer>
+  </body>
+</html>
