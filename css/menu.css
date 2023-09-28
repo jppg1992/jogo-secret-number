@@ -1,0 +1,10 @@
+
+.titulo{
+  font-size: 4rem;
+  color: var(--title-color);
+  
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/base.css" />
+    <title>Secret Number</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <a class="btnMenu" href="/index.html"> MENU</a>
+      </div>
+    </header>
+    <main class="container">
+      <h1>Advinhe o número secreto!!</h1>
+      <h4>(Número entre 1 e 10)</h4>
+      <div class="secrets">
+        <h1 id="secretNumber" class="secretNumber">?</h1>
+      </div>
+
+      <form id="meuFormulario">
+        <div class="inputs">
+          <input id="player1Input" class="playerInput" type="number" step="1" max="10" min="1" placeholder="P1" required />
+        </div>
+        <div class="divButtons">
+          <input type="submit" class="btns" title="Revelar" value="REVELAR" />
+        </div>
+      </form>
+    </main>
+    <footer>
+      <script src="../js/revelar.js"></script>
+      <a href="https://jppg1992.github.io/dev-links/" target="_blank"> © 2023 João Paulo Godinho</a>
+      <span class="versao">v1.0.0</span>
+    </footer>
+  </body>
+</html>
